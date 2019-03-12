@@ -34,13 +34,21 @@
         }
 
         .navbar a:hover {
-        background-color: #ddd;
+        background-color: #4aaaa5;
         color: #e0d9d9
         }
 
         .navbar a.active {
         background-color: #4aaaa5;
         color: #e0d9d9
+        }
+
+        .centerNav {
+        margin: auto;
+        width: 760px;
+        /* border: 3px solid #73AD21;*/
+        background-color: white;
+        padding: 15px 186px 22px 0px;
         }
 
         .center {
@@ -50,7 +58,25 @@
         background-color: white;
         padding: 10px;
         }
+        /* this should be used for content area on Index pg */
+        /* img {
+          float: left;
+        } */
 
+         p.clear {
+          clear: both;
+        } 
+        .nameBox {
+        background-color: #4aaaa5;;
+        float: left;
+        color: #e0d9d9;
+        text-align: center;        
+        font-weight: bold;
+        padding: 12px 18px 21px 8px;
+        margin-left: 195px;
+        text-decoration: none;
+        font-size: 24px; 
+       }
         .footer {
         position: fixed;
         left: 0;
@@ -71,7 +97,8 @@
 </head>
 <body>
     <nav>
-    <div class="navbar center">        
+        <h2 class="nameBox">Anthony Gaimari</h2>
+      <div class="navbar centerNav">  
         <a href="#contact">Contact</a>
         <a href="#about">Portfolio</a>
         <a class="active" href="#index">About</a>
@@ -83,7 +110,7 @@
         <p>Some content..</p>
       </div>  
       <footer class="footer">
-            <p class="bottom">Copyright</p>
+            <p class="bottom">Copyright &#169;</p>
       </footer>
 </body>
 </html>
