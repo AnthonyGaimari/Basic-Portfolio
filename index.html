@@ -10,12 +10,21 @@
         margin: 0;
         font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
         background-color: #e0d9d9;
-        }
+        } 
+
+       header{
+         width: 100%;
+         margin-bottom: 25px;
+         background-color: #fff;
+         border-bottom: 2px solid #666;
+       }
 
         nav{ 
         background-color: white;
-        border-bottom: 2px solid #666;
-        margin-bottom: 25px;
+        /* border-bottom: 2px solid #666; */
+        margin: 0 auto;
+        /* margin-bottom: 25px; */
+        width: 960px;
         }
 
         .navbar {
@@ -45,10 +54,10 @@
 
         .centerNav {
         margin: auto;
-        width: 760px;
-        /* border: 3px solid #73AD21;*/
+        /* width: 731px; */
+        /* border: 3px solid #73AD21; */
         background-color: white;
-        padding: 15px 186px 22px 0px;
+        padding: 29px 0px 22px 0px;
         }
 
         .center {
@@ -72,8 +81,9 @@
         color: #e0d9d9;
         text-align: center;        
         font-weight: bold;
-        padding: 12px 18px 21px 8px;
-        margin-left: 195px;
+        padding: 12px 18px 28px 8px;
+        margin-top: 27px;
+        margin-left: -8px;
         text-decoration: none;
         font-size: 24px; 
        }
@@ -96,21 +106,23 @@
     </Style>
 </head>
 <body>
-    <nav>
+    <header>
+      <nav>
         <h2 class="nameBox">Anthony Gaimari</h2>
-      <div class="navbar centerNav">  
-        <a href="#contact">Contact</a>
-        <a href="#about">Portfolio</a>
-        <a class="active" href="#index">About</a>
-      </div>
-    </nav>
+        <div class="navbar centerNav">  
+          <a href="contact.html">Contact</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a class="active" href="index.html">About</a>
+        </div>
+      </nav>
+    </header>
       <div class="center">
         <h2>About Me</h2>
         <HR style="border-bottom: 2px solid #666;"></HR>
         <p>Some content..</p>
       </div>  
       <footer class="footer">
-            <p class="bottom">Copyright &#169;</p>
+            <p class="bottom">Copyright &#169; 2019</p>
       </footer>
 </body>
 </html>
