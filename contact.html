@@ -80,9 +80,10 @@
         
                  p.clear {
                   clear: both;
-                } 
+                }
+
                 .nameBox {
-                background-color: #4aaaa5;;
+                background-color: #4aaaa5;
                 float: left;
                 color: #e0d9d9;
                 text-align: center;        
@@ -93,6 +94,27 @@
                 text-decoration: none;
                 font-size: 24px; 
                }
+
+               input {
+                width: 98%;
+                height: 20px;
+                padding-left: 10px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+               }
+
+               textarea{
+               margin-top: 5px; 
+               }
+
+               input.submit {
+                color: #fff;
+                padding: 2px 10px;
+                background-color: #4aaaa5;
+                height: 35px;
+                width: 65px;
+                }
+
                 .footer {
                 position: fixed;
                 left: 0;
@@ -123,9 +145,19 @@
               </nav>
             </header>
               <div class="center">
-                <h2>About Me</h2>
+                <h2>Contact</h2>
                 <HR style="border-bottom: 2px solid #666;"></HR>
-                <p>Some content CONTACT..</p>
+                      <label for="fullname">Name</label><br>
+                      <input type="text" id="fname" name="firstname" placeholder="John Smith"><br>
+                  
+                      <label for="email">Email</label><br>
+                      <input type="text" id="lname" name="lastname" placeholder="examle@gmail.com"><br>
+
+                      <label for="eMessage">Message</label><br>
+                      <textarea rows="4" cols="133" placeholder="add text cotent here">
+                       
+                      </textarea>
+                      <input class="submit" type="submit" value="Submit">
               </div>  
               <footer class="footer">
                     <p class="bottom">Copyright &#169; 2019</p>
