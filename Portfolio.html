@@ -1,147 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>Home Page</title>
-            <Style>
-                body {
-                margin: 0;
-                font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
-                background-color: #e0d9d9;
-                } 
-        
-               header{
-                 width: 100%;
-                 margin-bottom: 25px;
-                 background-color: #fff;
-                 border-bottom: 2px solid #666;
-               }
-        
-                nav{ 
-                background-color: white;
-                /* border-bottom: 2px solid #666; */
-                margin: 0 auto;
-                /* margin-bottom: 25px; */
-                width: 960px;
-                }
-        
-                .navbar {
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                overflow: hidden;
-                background-color: white;
-                }
-        
-                .navbar a {
-                float: right;
-                color:#e0d9d9
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                font-size: 14px;
-                }
-        
-                .navbar a:hover {
-                background-color: #4aaaa5;
-                color: #e0d9d9
-                }
-        
-                .navbar a.active {
-                background-color: #4aaaa5;
-                color: #e0d9d9
-                }
-        
-                .centerNav {
-                margin: auto;
-                /* width: 731px; */
-                /* border: 3px solid #73AD21; */
-                background-color: white;
-                padding: 29px 0px 22px 0px;
-                }
-        
-                .center {
-                margin: auto;
-                width: 960px;
-                /* border: 3px solid #73AD21;*/
-                background-color: white;
-                padding: 10px;
-                }
-                /* this should be used for content area on Index pg */
-                /* img {
-                  float: left;
-                } */
-        
-                 p.clear {
-                  clear: both;
-                } 
-                .nameBox {
-                background-color: #4aaaa5;;
-                float: left;
-                color: #e0d9d9;
-                text-align: center;        
-                font-weight: bold;
-                padding: 12px 18px 28px 8px;
-                margin-top: 27px;
-                margin-left: -8px;
-                text-decoration: none;
-                font-size: 24px; 
-               }
-               
-               input {
-                width: 98%;
-                height: 20px;
-                padding-left: 10px;
-                margin-top: 5px;
-                margin-bottom: 10px;
-               }
-                .footer {
-                position: fixed;
-                left: 0;
-                bottom: 0;
-                width: 100%;
-                border-top: 6px solid #4aaaa5;
-                background-color: #666;
-                color: white;
-                text-align: center;
-                font-size: 10px;
-                }
-        
-                .bottom {
-                vertical-align: text-bottom;
-                bottom: 0;
-                }
-            </Style>
-        </head>
-        <body>
-            <header>
-              <nav>
-                <h2 class="nameBox">Anthony Gaimari</h2>
-                <div class="navbar centerNav">  
-                  <a href="contact.html">Contact</a>
-                  <a class="active" href="portfolio.html">Portfolio</a>
-                  <a href="index.html">About</a>
-                </div>
-              </nav>
-            </header>
-              <div class="center">
-                <h2>Portfolio</h2>
-                <HR style="border-bottom: 2px solid #666;"></HR>
-                <p>Some content PORTFOLIO..</p>
-              </div>  
-              <footer class="footer">
-                    <p class="bottom">Copyright &#169; 2019</p>
-              </footer>
-        </body>
-        </html></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--<link rel="stylesheet" href="./assets/css/style.css">-->
+  <title>Home Page</title>
+  <Style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+      background-color: #e0d9d9;
+    }
+
+    header {
+      width: 100%;
+      margin-bottom: 25px;
+      background-color: #fff;
+      border-bottom: 2px solid #666;
+    }
+
+    nav {
+      background-color: white;
+      /* border-bottom: 2px solid #666; */
+      margin: 0 auto;
+      /* margin-bottom: 25px; */
+      width: 960px;
+    }
+
+    .navbar {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      overflow: hidden;
+      background-color: white;
+    }
+
+    .navbar a {
+      float: right;
+      color: #e0d9d9;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .navbar a:hover {
+      background-color: #4aaaa5;
+      color: #e0d9d9
+    }
+
+    .navbar a.active {
+      background-color: #4aaaa5;
+      color: #e0d9d9
+    }
+
+    .centerNav {
+      margin: auto;
+      /* width: 731px; */
+      /* border: 3px solid #73AD21; */
+      background-color: white;
+      padding: 19px 0px 22px 0px;
+    }
+
+    .center {
+      margin: auto;
+      width: 960px;
+      /* border: 3px solid #73AD21;*/
+      background-color: white;
+      padding: 10px;
+    }
+
+    /* this should be used for content area on Index pg */
+    /* img {
+              float: left;
+            } */
+
+    p.clear {
+      clear: both;
+    }
+
+    .nameBox {
+      background-color: #4aaaa5;
+      float: left;
+      color: #e0d9d9;
+      text-align: center;
+      font-weight: bold;
+      padding: 29px 12px 28px 8px;
+      margin-top: 0;
+      margin-left: -8px;
+      text-decoration: none;
+      font-size: 24px;
+    }
+
+    input {
+      width: 98%;
+      height: 20px;
+      padding-left: 10px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    textarea {
+      margin-top: 5px;
+    }
+
+    input.submit {
+      color: #fff;
+      padding: 2px 10px;
+      background-color: #4aaaa5;
+      height: 35px;
+      width: 65px;
+    }
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      border-top: 6px solid #4aaaa5;
+      background-color: #666;
+      color: white;
+      text-align: center;
+      font-size: 10px;
+    }
+
+    .bottom {
+      vertical-align: text-bottom;
+      bottom: 0;
+    }
+
+    #cover {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      border: 2px solid black;
+      margin: 10px;
+      padding: 25px;
+      background: url("TGavatar.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </Style>
 </head>
+
 <body>
-    
+  <header>
+    <nav>
+      <h2 class="nameBox">Anthony Gaimari</h2>
+      <div class="navbar centerNav">
+        <a href="contact.html">Contact</a>
+        <a class="active" href="portfolio.html">Portfolio</a>
+        <a href="index.html">About</a>
+      </div>
+    </nav>
+  </header>
+  <div class="center">
+    <h2>Portfolio</h2>
+    <HR style="border-bottom: 2px solid #666;">
+    </HR>
+    <p>Some content PORTFOLIO..11</p>
+    <div>
+      <div id="cover"></div>
+      <div id="cover"></div>
+      <div id="cover"></div>
+    </div>
+    <div>
+      <div id="cover"></div>
+      <div id="cover"></div>
+      <div id="cover"></div>
+    </div>
+  </div>
+  <footer class="footer">
+    <p class="bottom">Copyright &#169; 2019</p>
+  </footer>
 </body>
+
 </html>
