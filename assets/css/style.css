@@ -62,7 +62,13 @@ nav {
   background-color: white;
   border-style: solid;
   border-color: #ddd;
-  padding: 30px;
+  padding: 10px;
+}
+
+div.lineHt {
+  font-size: 12px;
+  line-height: 1.8;
+  margin-bottom: 25px;
 }
 
 p.clear {
