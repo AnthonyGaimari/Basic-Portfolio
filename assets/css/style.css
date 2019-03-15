@@ -13,6 +13,7 @@ header {
 
 h2{
   color: #4aaaa5;
+  padding-bottom: 6px;
 }   
 
 hr {
@@ -62,7 +63,7 @@ nav {
   background-color: white;
   border-style: solid;
   border-color: #ddd;
-  padding: 10px;
+  padding: 18px;
 }
 
 div.lineHt {
