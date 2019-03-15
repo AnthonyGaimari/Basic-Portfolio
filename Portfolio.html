@@ -9,13 +9,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!--<link rel="stylesheet" href="./assets/css/style.css">-->
+  <link rel="stylesheet" href="/assets/css/style.css">
   <title>Home Page</title>
-  <Style>
+  <!-- <Style>
     body {
       margin: 0;
       font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
-      background-color: #e0d9d9;
+      background-image: url("./assets/images/kindajean.png");
     }
 
     header {
@@ -27,9 +27,7 @@
 
     nav {
       background-color: white;
-      /* border-bottom: 2px solid #666; */
       margin: 0 auto;
-      /* margin-bottom: 25px; */
       width: 960px;
     }
 
@@ -41,7 +39,7 @@
 
     .navbar a {
       float: right;
-      color: #e0d9d9;
+      color: #777777;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
@@ -50,7 +48,7 @@
 
     .navbar a:hover {
       background-color: #4aaaa5;
-      color: #e0d9d9
+      color: #777777
     }
 
     .navbar a.active {
@@ -60,8 +58,6 @@
 
     .centerNav {
       margin: auto;
-      /* width: 731px; */
-      /* border: 3px solid #73AD21; */
       background-color: white;
       padding: 19px 0px 22px 0px;
     }
@@ -69,15 +65,9 @@
     .center {
       margin: auto;
       width: 960px;
-      /* border: 3px solid #73AD21;*/
       background-color: white;
       padding: 10px;
     }
-
-    /* this should be used for content area on Index pg */
-    /* img {
-              float: left;
-            } */
 
     p.clear {
       clear: both;
@@ -117,7 +107,6 @@
     }
 
     .footer {
-      /*position: fixed;*/
       position: sticky;
       left: 0;
       bottom: 0;
@@ -135,18 +124,28 @@
       bottom: 0;
     }
 
-    #cover {
+    .cover {
       display: inline-block;
       width: 150px;
       height: 150px;
       border: 2px solid black;
       margin: 10px;
       padding: 25px;
-      background: url("./images/TGavatar.jpg");
+      background-image: url("assets/images/TGavatar.jpg");
       background-repeat: no-repeat;
       background-size: cover;
+      position: relative;
     }
-  </Style>
+
+    h4 {
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      background-color: white;
+      width: 100%;
+      text-align: center;
+    }
+  </Style> -->
 </head>
 
 <body>
@@ -162,21 +161,30 @@
   </header>
   <div class="center">
     <h2>Portfolio</h2>
-    <HR style="border-bottom: 2px solid #666;">
-    </HR>
-    <p>Some content PORTFOLIO..11</p>
+    <hr style="border-bottom: 2px solid #666;">
+    </hr>
+    <p>Some content PORTFOLIO..112222</p>
     <div>
-      <div id="cover"></div>
-      <div id="cover"></div>
-      <div id="cover"></div>
+      <div class="cover">
+        <h4>Project Name</h4>
+      </div>
+      <div class="cover">
+        <h4>Project Name</h4>
+      </div>
+      <div class="cover">
+        <p></p>
+      </div>
+      <div class="cover">
+        <p></p>
+      </div>
     </div>
     <div>
-      <div id="cover"></div>
-      <div id="cover"></div>
-      <div id="cover"></div>
+      <div class="cover"></div>
+      <div class="cover"></div>
+      <div class="cover"></div>
     </div>
   </div>
-  <footer class="footer">
+  <footer class="footerSticky">
     <p class="bottom">Copyright &#169; 2019</p>
   </footer>
 </body>
