@@ -2,7 +2,6 @@
     display: inline-block;
     width: 225px;
     height: 175px;
-    border: 2px solid black;
     margin: 30px 20px 10px 0px;
     padding: 25px; 
     background-image: url("/assets/images/phonesam.png");
@@ -14,7 +13,6 @@
     display: inline-block;
     width: 225px;
     height: 175px;
-    border: 2px solid black;
     margin: 30px 20px 10px 0px;
     padding: 25px; 
     background-image: url("/assets/images/techboard.png");
@@ -26,7 +24,6 @@
     display: inline-block;
     width: 225px;
     height: 175px;
-    border: 2px solid black;
     margin: 30px 20px 10px 0px;
     padding: 25px; 
     background-image: url("/assets/images/cables.png");
@@ -34,26 +31,24 @@
     background-size: cover;
     position: relative;
   }
-  #cover4 {
+  .cover4 {
     display: inline-block;
     width: 225px;
     height: 175px;
-    border: 2px solid black;
     margin: 30px 20px 10px 0px;
     padding: 25px; 
-    background-image: url("/assets/images/keyboard.png");
+    background-image: url("/assets/images/turntbl.PNG");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
   }
-  #cover5 {
+  .cover5 {
     display: inline-block;
     width: 225px;
     height: 175px;
-    border: 2px solid black;
     margin: 30px 20px 10px 0px;
     padding: 25px; 
-    background-image: url("/assets/images/#.png");
+    background-image: url("/assets/images/keyboard.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

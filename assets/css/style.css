@@ -67,7 +67,7 @@ nav {
 }
 
 div.lineHt {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
   margin-bottom: 25px;
 }
@@ -141,20 +141,21 @@ input.submit {
   bottom: 0;
 }
 
-.cover1 {
+/* .cover1 { 
   display: inline-block;
   width: 225px;
   height: 225px;
-  border: 2px solid black;
   margin: 10px 0px 10px 0px;
   padding: 25px; 
   background-image: url("/assets/images/TGavatar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-} 
+} */
 
 h4 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
   position: absolute;
   bottom: 10px;
   left: 0;
