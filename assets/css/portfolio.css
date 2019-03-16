@@ -37,10 +37,11 @@
     height: 175px;
     margin: 30px 20px 10px 0px;
     padding: 25px; 
-    background-image: url("../images/turntbl.PNG");
+    background-image: url("../images/turntbl.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
   }
   .cover5 {
     display: inline-block;
