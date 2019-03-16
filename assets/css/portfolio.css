@@ -4,7 +4,7 @@
     height: 175px;
     margin: 30px 20px 10px 0px;
     padding: 25px; 
-    background-image: url("/assets/images/phonesam.png");
+    background-image: url("../images/phonesam.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -15,7 +15,7 @@
     height: 175px;
     margin: 30px 20px 10px 0px;
     padding: 25px; 
-    background-image: url("/assets/images/techboard.png");
+    background-image: url("../images/techboard.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -26,7 +26,7 @@
     height: 175px;
     margin: 30px 20px 10px 0px;
     padding: 25px; 
-    background-image: url("/assets/images/cables.png");
+    background-image: url("../images/cables.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -37,7 +37,7 @@
     height: 175px;
     margin: 30px 20px 10px 0px;
     padding: 25px; 
-    background-image: url("/assets/images/turntbl.PNG");
+    background-image: url("../images/turntbl.PNG");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -48,7 +48,7 @@
     height: 175px;
     margin: 30px 20px 10px 0px;
     padding: 25px; 
-    background-image: url("/assets/images/keyboard.png");
+    background-image: url("../images/keyboard.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
